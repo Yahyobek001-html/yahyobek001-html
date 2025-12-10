@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dynamic Hover Button</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  padding: 50px;
+  background-color: #f4f4f4;
+}
+
+/* --- CSS Starts Here --- */
+
+.dynamic-button {
+  /* 1. Initial State (Normal) */
+  display: inline-block; 
+  padding: 10px 20px;   
+  margin: 10px;        
+  
+  /* Appearance */
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;   
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  
+  /* 2. Transition for Smooth Animation */
+  transition: all 0.3s ease-in-out; 
+}
+
+/* 3. Hover State */
+.dynamic-button:hover {
+  /* Bigger Size (Padding increase) */
+  padding: 15px 30px; 
+  
+  /* Margin Increase */
+  margin: 20px;      
+  
+  /* Optional Visual Changes */
+  background-color: #0056b3; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px); /* Subtle lift for a 3D effect */
+}
+
+/* --- CSS Ends Here --- */
+</style>
+</head>
+<body>
+
+  <div style="border: 1px solid #ccc; padding: 20px;">
+    Element A
+  </div>
+  
+  <a href="#" class="dynamic-button">
+    Hover Me!
+  </a>
+
+  <div style="border: 1px solid #ccc; padding: 20px;">
+    Element B
+  </div>
+
+  <p>Notice how the margin pushes "Element A" and "Element B" away on hover.</p>
+
+</body>
+</html>
