@@ -24,7 +24,7 @@ header nav a{
     display:inline-block;
     padding: 15px 12px;
     text-decoration: none;
-    transition: transform 0.3s, background-color 0.3s;
+    transition: transform 0.5s, background-color 0.5s;
     margin-top:10px;
     margin-right:10px;
 }
@@ -288,5 +288,6 @@ footer {
     padding: 5px 30px;
 
 }
+
 
 
