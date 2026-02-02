@@ -18,13 +18,14 @@ nav {
     gap: 15px;
 }
 header nav a{
-    border:2px solid black;
-    color:black;
+    border:2px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    background-color: #000000;
     border-radius: 5px;
     display:inline-block;
     padding: 15px 12px;
     text-decoration: none;
-    transition: transform 0.5s, background-color 0.5s;
+    transition: transform 0.3s, background-color 0.3s;
     margin-top:10px;
     margin-right:10px;
 }
@@ -286,4 +287,5 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: 5px 30px;
+
 }
