@@ -20,7 +20,7 @@ nav {
 header nav a{
     border:2px solid rgb(255, 255, 255);
     color:rgb(255, 255, 255);
-    background-color: #000000;
+    background-color: #666;
     border-radius: 5px;
     display:inline-block;
     padding: 15px 12px;
@@ -289,3 +289,4 @@ footer {
     padding: 5px 30px;
 
 }
+
