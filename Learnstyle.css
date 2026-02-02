@@ -19,7 +19,7 @@ nav {
 }
 header nav a{
     border:2px solid black;
-    color:black;
+    color: black;
     background-color:white;
     border-radius: 5px;
     display:inline-block;
@@ -288,6 +288,7 @@ footer {
     justify-content: space-between;
     padding: 5px 30px;
 }
+
 
 
 
